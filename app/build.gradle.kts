@@ -84,4 +84,11 @@ dependencies {
 
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
+
+    // Testing ->
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:<version>")
+    androidTestImplementation("androidx.test.espresso:espresso-core:<version>")
+    androidTestImplementation("androidx.navigation:navigation-testing:<version>")
+    androidTestImplementation("androidx.test.ext:junit:<version>")
+    debugImplementation("androidx.compose.ui:ui-test-manifest:<version>")
 }
